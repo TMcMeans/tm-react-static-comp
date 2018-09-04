@@ -5,7 +5,13 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server",
+<<<<<<< HEAD
     "build": "./node_modules/webpack/bin/webpack.js"
+=======
+    "build": "./node_modules/webpack/bin/webpack.js",
+    "test": "jest",
+    "eslint": "./node_modules/eslint/bin/eslint.js ./lib/*.js"
+>>>>>>> 85ca025162c0228982b95fd78e0644b7a8a76925
   },
   "repository": {
     "type": "git",
